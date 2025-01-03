@@ -98,7 +98,7 @@ admin:
   existingSecret: ""
   ## @param admin.existingSecretPasswordKey Password key on the existing secret
   ##
-  existingSecretPasswordKey: password
+  existingSecretPasswordKey: ""
 ## SMTP configuration
 ##
 smtp:
