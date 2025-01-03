@@ -1,0 +1,2 @@
+# nginx
+Default nginx install
