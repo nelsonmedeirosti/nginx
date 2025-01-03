@@ -624,7 +624,7 @@ existingServerBlockConfigmap: ""
 existingStreamServerBlockConfigmap: ""
 ## @param staticSiteConfigmap Name of existing ConfigMap with the server static site content
 ##
-staticSiteConfigmap: ""
+staticSiteConfigmap: "index-html-configmap"
 ## @param staticSitePVC Name of existing PVC with the server static site content
 ## NOTE: This will override staticSiteConfigmap
 ##
