@@ -621,7 +621,7 @@ existingServerBlockConfigmap: ""
 ## @param existingStreamServerBlockConfigmap ConfigMap with custom stream server block to be added to NGINX configuration
 ## NOTE: This will override streamServerBlock
 ##
-existingStreamServerBlockConfigmap: ""
+existingStreamServerBlockConfigmap: "nginx-conf-configmap"
 ## @param staticSiteConfigmap Name of existing ConfigMap with the server static site content
 ##
 staticSiteConfigmap: "index-html-configmap"
