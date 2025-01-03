@@ -571,7 +571,7 @@ alertmanager:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
   ## Configuration for creating a separate Service for each statefulset Alertmanager replica
   ##
@@ -601,7 +601,7 @@ alertmanager:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
   ## Configuration for creating a ServiceMonitor for AlertManager
   ##
@@ -2453,7 +2453,7 @@ prometheusOperator:
         ## Service type
         ## NodePort, ClusterIP, LoadBalancer
         ##
-        type: ClusterIP
+        type: LoadBalancer
 
         ## List of IP addresses at which the Prometheus server service is available
         ## Ref: https://kubernetes.io/docs/user-guide/services/#external-ips
@@ -2754,7 +2754,7 @@ prometheusOperator:
   ## Service type
   ## NodePort, ClusterIP, LoadBalancer
   ##
-    type: ClusterIP
+    type: LoadBalancer
 
     ## List of IP addresses at which the Prometheus server service is available
     ## Ref: https://kubernetes.io/docs/user-guide/services/#external-ips
@@ -3114,7 +3114,7 @@ prometheus:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
     ## Service dual stack
     ##
@@ -3242,7 +3242,7 @@ prometheus:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
     ## Additional ports to open for Prometheus service
     ##
@@ -3299,7 +3299,7 @@ prometheus:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
     ## Service dual stack
     ##
@@ -4625,7 +4625,7 @@ thanosRuler:
 
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
   ## Configuration for creating a ServiceMonitor for the ThanosRuler service
   ##
