@@ -7,7 +7,7 @@ data:
     # Based on https://www.nginx.com/resources/wiki/start/topics/examples/full/#nginx-conf
     # user              www www;  ## Default: nobody
 
-    worker_processes  auto;
+    #worker_processes  auto;
     error_log         "/opt/bitnami/nginx/logs/error.log";
     pid               "/opt/bitnami/nginx/tmp/nginx.pid";
 
