@@ -325,7 +325,9 @@ containerPorts:
 ##   - name: grpc
 ##     containerPort: 4317
 ##
-extraContainerPorts: []
+extraContainerPorts: 
+  - name: prometheus-port
+    containerPort: 9113
 ## NGINX containers' resource requests and limits
 ## ref: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
 ## We usually recommend not to specify default resources and to leave this as a conscious
