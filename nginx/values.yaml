@@ -355,11 +355,11 @@ resources: {}
 ## If you do want to specify lifecycleHooks, uncomment the following
 ## lines, adjust them as necessary, and remove the curly braces on 'lifecycle:{}'.
 ## @param lifecycleHooks Optional lifecycleHooks for the NGINX container
-lifecycleHooks: {}
+lifecycleHooks: 
 ## Example:
-## postStart:
-##   exec:
-##     command: ["/bin/sh", "-c", "echo Hello from the postStart handler > /usr/share/message"]
+   postStart:
+     exec:
+       command: ["/bin/sh", "-c", "apt update; apt install curl; apt install net-tools"]
 ## Example:
 ## preStop:
 ##   exec:
