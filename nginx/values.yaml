@@ -309,7 +309,7 @@ containerSecurityContext:
   readOnlyRootFilesystem: true
   allowPrivilegeEscalation: true
   capabilities:
-    drop: ["ALL"]
+    #drop: ["ALL"]
   seccompProfile:
     type: "RuntimeDefault"
 ## Configures the ports NGINX listens on
